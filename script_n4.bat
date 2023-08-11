@@ -1,3 +1,5 @@
+REM crédit : ??????
+
 echo Disabling Mitigations
 
 reg add "HKLM\SOFTWARE\Policies\Microsoft\FVE" /v "DisableExternalDMAUnderLock" /t REG_DWORD /d "0" /f >> APB_Log.txt
