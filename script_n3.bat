@@ -1,3 +1,5 @@
+REM crédit : ???????
+
 echo Creating a Restore Point...
 powershell Enable-ComputerRestore -Drive 'C:\', 'D:\', 'E:\', 'F:\', 'G:\' >nul 2>&1
 powershell Checkpoint-Computer -Description 'Terabyte Restore Point' >nul 2>&1
